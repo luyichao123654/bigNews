@@ -80,8 +80,13 @@
             option = {
                 tooltip: {
                     trigger: 'axis',
+<<<<<<< HEAD
                     position: function (point) {
                         return [point[0], '10%'];
+=======
+                    position: function (pt) {
+                        return [pt[0], '10%'];
+>>>>>>> 5cf06edd2efbc403f3ab4bd26aad79acb2d83ab2
                     }
                 },
                 title: {
@@ -92,7 +97,11 @@
                 xAxis: {
                     name: '日',
                     type: 'category',
+<<<<<<< HEAD
                     boundaryGap: true,
+=======
+                    boundaryGap: false,
+>>>>>>> 5cf06edd2efbc403f3ab4bd26aad79acb2d83ab2
                     data: date
                 },
                 legend: {
